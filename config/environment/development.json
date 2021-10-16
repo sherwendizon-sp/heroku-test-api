@@ -1,0 +1,5 @@
+{
+	"strongpoint_access_review_local": {
+		"host": "http://localhost:3000"
+	}
+}

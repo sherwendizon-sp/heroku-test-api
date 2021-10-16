@@ -1,0 +1,15 @@
+[
+	{
+		"name": "portal-api",
+		"run_as_user": "deploy",
+		"cwd": "/home/deploy/strongpoint-user-access-review-api",
+		"script": "./index.js",
+		"log_date_format": "YYYY-MM-DD HH:mm:ss:SSS Z",
+		"env": {
+			"NODE_ENV": "production"
+		},
+		"error_file": "/home/deploy/strongpoint-user-access-review-api/log/pm2-resource-error.log",
+		"out_file": "/home/deploy/strongpoint-user-access-review-api/log/pm2-resource-output.log",
+		"exec_mode": "fork_mode"
+	}
+]

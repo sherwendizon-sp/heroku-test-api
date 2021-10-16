@@ -1,0 +1,5 @@
+{
+	"strongpoint_access_review_api": {
+		"host": "https://api.strongpoint-uar.io"
+	}
+}
